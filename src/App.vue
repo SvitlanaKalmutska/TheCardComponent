@@ -22,6 +22,7 @@ body {
   box-sizing: border-box;
   min-width: 375px;
   overflow-x: hidden;
+  color: #484037;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   /* font-size: 15px; */
