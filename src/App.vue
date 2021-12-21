@@ -20,15 +20,12 @@ export default {
 body {
   margin: 0;
   box-sizing: border-box;
-  min-width: 375px;
   overflow-x: hidden;
   color: #484037;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  /* font-size: 15px; */
   font-size: calc(15px + (3 + 3 * 0.9) * ((100vw - 375px) / 768));
   line-height: 120%;
-  /* line-height: 18px; */
 }
 h3 {
   margin: 0;
