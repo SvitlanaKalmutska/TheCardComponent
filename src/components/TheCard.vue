@@ -18,26 +18,24 @@
     </section>
 
     <section class="checks-info">
-      <!-- <div class="checks-info__wrapper"> -->
       <div class="maintenance">
         <span class="maintenance__title subtitle">Wartung</span>
-        <span class="key">Letzte Wartung </span>
-        <span>29.09.2021</span>
-        <span class="key">Nächste Wartung</span>
-        <span>29.09.2022</span>
+        <span>Letzte Wartung </span>
+        <span class="date">29.09.2021</span>
+        <span>Nächste Wartung</span>
+        <span class="date">29.09.2022</span>
       </div>
       <hr />
       <div class="machine-check">
         <span class="machine-check__title subtitle"
           >Electric AC/DC 123-54455 prüfung</span
         >
-        <span class="key">Letzte Prüfung: </span>
-        <span>29.09.2020</span>
-        <span class="key">Nächste Prüfung:</span>
-        <span>29.09.2021</span>
+        <span>Letzte Prüfung</span>
+        <span class="date">29.09.2020</span>
+        <span>Nächste Prüfung</span>
+        <span class="date">29.09.2021</span>
       </div>
       <hr />
-      <!-- </div> -->
     </section>
   </div>
 </template>
@@ -130,13 +128,28 @@ hr {
   padding: 26px 16px 4px 16px;
 }
 
-.maintenance {
+.maintenance,
+.machine-check {
   padding-bottom: 4px;
   display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 8px;
 }
 
 .machine-check {
-  padding: 4px 0;
+  padding-top: 4px;
+}
+
+.subtitle {
+  grid-column: span 2;
+  padding-bottom: 4px;
+  font-weight: 700;
+  font-size: calc(17px + (5 + 6 * 0.8) * ((100vw - 375px) / 768));
+  line-height: 106%;
+}
+
+.date {
+  justify-self: right;
 }
 
 @media only screen and (min-width: 600px) {
@@ -160,6 +173,10 @@ hr {
 
   hr {
     margin: 16px 0;
+  }
+
+  .checks-info {
+    padding: 32px;
   }
 }
 </style>
