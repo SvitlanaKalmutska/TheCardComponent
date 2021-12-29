@@ -16,6 +16,29 @@
       <span class="key">Adresse</span>
       <span>Praterstraße 1, 1020 Wien, Österreich</span>
     </section>
+
+    <section class="checks-info">
+      <!-- <div class="checks-info__wrapper"> -->
+      <div class="maintenance">
+        <span class="maintenance__title subtitle">Wartung</span>
+        <span class="key">Letzte Wartung </span>
+        <span>29.09.2021</span>
+        <span class="key">Nächste Wartung</span>
+        <span>29.09.2022</span>
+      </div>
+      <hr />
+      <div class="machine-check">
+        <span class="machine-check__title subtitle"
+          >Electric AC/DC 123-54455 prüfung</span
+        >
+        <span class="key">Letzte Prüfung: </span>
+        <span>29.09.2020</span>
+        <span class="key">Nächste Prüfung:</span>
+        <span>29.09.2021</span>
+      </div>
+      <hr />
+      <!-- </div> -->
+    </section>
   </div>
 </template>
 
@@ -101,6 +124,19 @@ hr {
 
 .key {
   font-weight: 700;
+}
+
+.checks-info {
+  padding: 26px 16px 4px 16px;
+}
+
+.maintenance {
+  padding-bottom: 4px;
+  display: grid;
+}
+
+.machine-check {
+  padding: 4px 0;
 }
 
 @media only screen and (min-width: 600px) {
