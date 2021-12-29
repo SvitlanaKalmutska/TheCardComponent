@@ -48,6 +48,8 @@ h3 {
   font-weight: 400;
   font-size: calc(15px + (3 + 3 * 0.9) * ((100vw - 375px) / 768));
   line-height: 120%;
+  max-width: 1024px;
+  margin: o auto;
 }
 
 h1.title {
@@ -79,13 +81,13 @@ h1.title {
 }
 
 .asset-name {
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 4px;
 }
 
 .asset-type {
   font-weight: 700;
-  font-size: calc(20px + (7.6 + 8 * 0.9) * ((100vw - 375px) / 768));
+  font-size: calc(20px + (7.6 + 9 * 0.9) * ((100vw - 375px) / 768));
   line-height: 120%;
 }
 
@@ -108,7 +110,7 @@ hr {
   }
 
   .main-info__grid {
-    padding: 32px 32px 35px;
+    padding: 32px;
     column-gap: 1.75rem;
   }
 
