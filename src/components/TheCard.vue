@@ -49,7 +49,7 @@ h3 {
   font-size: calc(15px + (3 + 3 * 0.9) * ((100vw - 375px) / 768));
   line-height: 120%;
   max-width: 1024px;
-  margin: o auto;
+  margin: 0 auto;
 }
 
 h1.title {
