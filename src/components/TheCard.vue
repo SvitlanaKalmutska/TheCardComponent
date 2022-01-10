@@ -69,7 +69,7 @@ h3 {
   font-weight: 400;
   font-size: calc(15px + (3 + 3 * 0.9) * ((100vw - 375px) / 768));
   line-height: 120%;
-  max-width: 1024px;
+  max-width: 768px;
   margin: 0 auto;
 }
 
