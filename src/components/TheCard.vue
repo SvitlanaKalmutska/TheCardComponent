@@ -153,7 +153,12 @@ hr {
 }
 
 @media only screen and (min-width: 600px) {
+  .card-wrapper {
+    font-size: 18px;
+  }
+
   h1.title {
+    font-size: 34px;
     margin-top: 32px;
     margin-left: 32px;
   }
@@ -167,6 +172,10 @@ hr {
     margin-bottom: 8px;
   }
 
+  .asset-type {
+    font-size: 28px;
+  }
+
   .main-info__img {
     margin-bottom: 24px;
   }
@@ -177,6 +186,10 @@ hr {
 
   .checks-info {
     padding: 32px;
+  }
+
+  .subtitle {
+    font-size: 22px;
   }
 }
 </style>
